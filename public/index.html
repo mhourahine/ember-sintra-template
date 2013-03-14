@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Barebones Ember</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/application.css" rel="stylesheet" media="screen">
+
+    <script type="text/x-handlebars" data-template-name="application">
+      <h1>Hello World!</h1>
+      {{outlet}}
+    </script>
+
+  </head>
+  <body>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span2"></div>
+        <div id="application_root" class="inner_container span8">
+          
+        </div>
+      <div class="span2"></div>
+    </div>
+  </div>
+
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/handlebars.js"></script>
+    <script src="javascripts/ember-1.0.0-rc.1.js"></script>
+    <script src="javascripts/app.js"></script>
+  </body>
+</html>
