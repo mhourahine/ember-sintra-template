@@ -1,5 +1,7 @@
 #Basic Ember.js Template#
 
+This is a barebones Ember template I created as a starting point for new apps.
+
 Uses the following:
 
 - Ember.js 1.0.0-rc1
